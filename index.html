@@ -1,84 +1,35 @@
 <!doctype html>
-<html lang="pt-br">
+<html>
 <head>
-<meta charset="utf-8"/>
-<title>Pousada Porto das Dunas</title>
-
-<link rel="stylesheet" type="text/css" href="css/estilo.css">
-
+<meta charset="utf-8">
+<title>Formulário</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 
 <body>
 
-<header class="cabecalho">
+<section id="contato">
 
-<div class="topo">
+<div id="containercontato">
+<h2>Fale Conosco</h2>
 
-<img src="img/logo1-removebg-preview.png" class="logo" width="280"/>
+<form name="formulario" action="enviar.php">
 
-<nav class="menu">
+<input name="nome" type="text" placeholder="Nome completo"/>
 
-<ul>
+<input name="telefone" type="text" placeholder="Telefone"/>
 
-<li> <a href="index.html">Home</a> </li>
-<li> <a href="dicas.html">Dicas de Passeio</a> </li>
-<li> <a href="lazer.html">Lazer</a> </li>
-<li> <a href="turisticos.html">Pontos Turísticos</a> </li>
+<input name="email" type="text" placeholder="E-mail"/>
 
-</ul>
+<input name="assunto" type="text" placeholder="Assunto"/>
 
-</nav> <!--Fim Menu-->
+<textarea name="mensagem" placeholder="Mensagem"></textarea>
 
-</div><!--Fim Topo-->
+<p><input type="submit" value="Enviar" id="id_enviar" ></p> </form>
 
-</header> <!--Fim Cabeçalho-->
+</div> <!--Fim Container Contato -->
 
-<section class="galeria">
-
-<img src="img/banner.png" width="100%"/>
-
-</section> <!--Fim Galeria-->
-
-<section class="container">
-
-</section> <!--Fim Container-->
-
-<footer class="rodape">
-
-<div class="caixa">
-
-<div class="box1">
-
-<h5>Menu</h5>
-
-<nav class="menurodape">
-
-<ul>
-
-<li> <a href="index.html">Home</a> </li>
-<li> <a href="dicas.html">Dicas de Passeio</a> </li>
-<li> <a href="lazer.html">Lazer</a> </li>
-<li> <a href="turisticos.html">Pontos Turísticos</a> </li>
-
-</ul>
-
-</nav> <!--Fim Menu-->
-
-</div> <!--Fim Box1-->
-
-<div class="box2">
-
-</div> <!--Fim Box2-->
-
-<div class="box3">
-
-</div> <!--Fim Box3-->
-
-
-</div> <!--Fim Caixa-->
-
-</footer> <!--Fim Rodapé-->
+</section> <!--Fim Contato -->
 
 </body>
-
 </html>
